@@ -21,7 +21,7 @@ const Home = () => {
         const formData = new FormData();
         formData.append('file', selectedFile);
         try {
-           const response = await axios.post('http://localhost:3000/convertFile', formData,{
+           const response = await axios.post('https://word-to-pdf-converter-kwnw.onrender.com/convertFile', formData,{
             responseType: 'blob', // Important: Set the response type to 'blob' for file download
            });
            const url = window.URL.createObjectURL(new Blob([response.data]));
