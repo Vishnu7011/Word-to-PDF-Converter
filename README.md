@@ -39,18 +39,18 @@ git clone https://github.com/Vishnu7011/Word-to-PDF-Converter.git
 
 ### Install Frontend
 
-bash
-cd frontend
-npm install
-npm run dev
+- bash
+- cd frontend
+- npm install
+- npm run dev
 
 
 ### Install Backend
 
-bash
-cd backend
-npm install
-node index.js
+- bash
+- cd backend
+- npm install
+- node index.js
 
 
 ---
